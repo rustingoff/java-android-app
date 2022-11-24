@@ -1,0 +1,4 @@
+FurID	FurName	FurProd
+1	Iulian	Popov
+2	Artiom	Jot
+3	Vasya	Tari

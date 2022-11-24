@@ -1,0 +1,4 @@
+PrId	integer
+QuantS	integer
+QuantP	integer
+Date1	text

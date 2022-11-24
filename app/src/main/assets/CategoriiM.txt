@@ -1,0 +1,4 @@
+CatId	CatN	Descr
+1	Legume	Varza,morcov,cartofi,..
+2	Fructe	Mere,gutui,prasade,prune
+3	Bauturi	Dorna,Gura cainarului,..

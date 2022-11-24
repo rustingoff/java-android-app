@@ -1,0 +1,3 @@
+FurID	integer
+FurName	text
+FurProd	text

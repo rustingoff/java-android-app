@@ -1,0 +1,3 @@
+Cid	integer
+CliN	text
+CliP	text

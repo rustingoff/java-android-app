@@ -1,0 +1,5 @@
+PrId	integer
+PrN	text
+UnM	text
+Price	integer
+Cat	integer

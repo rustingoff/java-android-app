@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/createDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="createDB"
+            android:text="CrDb"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/createTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="createTAB"
+            android:text="CrTab"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/fillTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fillTables"
+            android:text="FillTab"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/showTables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showTables"
+            android:text="ShowTables"
+            style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/createDDResult"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Create DB result" />
+
+        <TextView
+            android:id="@+id/createTablesResult"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Create tables result" />
+
+        <TextView
+            android:id="@+id/fillTablesResult"
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:scrollbars="vertical"
+            android:text="Fill tables result"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/showTablesResult"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Show tables result" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

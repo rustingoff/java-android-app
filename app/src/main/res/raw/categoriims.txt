@@ -1,0 +1,3 @@
+CatId	integer
+CatN	text
+Descr	text

@@ -1,0 +1,11 @@
+PrId	PrN	UnM	Price	Cat
+1	2	2	1	1
+1	Morcovi	Kg	4	1
+2	Ceapa	kg	5	1
+3	Cirese	pachete	5	2
+4	Mere	pack 2	6	2
+5	Prune	kg	6	2
+6	Cartofi	pack 1	8	1
+7	bere	sticle	7	3
+8	bere	litru	7	3
+9	Dorna	sticle 1,5	5	3
